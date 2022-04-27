@@ -1,0 +1,53 @@
+﻿
+
+@model Vidly.ViewModels.RandomCustomerViewModel
+
+@{
+    ViewBag.Title = "Random";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*Abaixo é como podemos renderizar propriedades de HTML usando C#*@
+@*@{
+        var className = Model.Customers.Count > 0 ? "popular" : null;
+    }*@
+
+@*Para renderizar os clientes podemos usar um bloco de foreach*@
+@*Assim como tambem podemos usar blocos de if, é so adicionar arromba para declarar C#*@
+<h2> Customers </h2>
+@{ if (Model.Customers.Count == 0)
+    {
+        <p>No customers available</p>
+    }
+    else
+    {
+    <table class="table table-hover">
+    
+    <thead>
+        <tr>
+            <th scope="col">Customers</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var customer in Model.Customers)
+
+        {
+        <tr class="table-active">
+            <td>
+                <button type="button" class="btn btn-link">@customer.Name</button>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+    }
+
+}
+
+@*<h2>@Model.Name</h2>*@
+
+@*<h2>@(  ((Movie)ViewData["Movie"]).Name  )</h2> para pegar a proriedade dentro do controller, não
+    é o melhor formato para passar dados para a view, pela dificil manutenção*@
+
+

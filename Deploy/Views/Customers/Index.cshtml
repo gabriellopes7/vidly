@@ -1,0 +1,124 @@
+﻿
+@model IEnumerable<Vidly.Models.Customer>
+
+@{
+    ViewBag.Title = "Customers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*Abaixo é como podemos renderizar propriedades de HTML usando C#*@
+@*@{
+        var className = Model.Customers.Count > 0 ? "popular" : null;
+    }*@
+
+@*Para renderizar os clientes podemos usar um bloco de foreach*@
+@*Assim como tambem podemos usar blocos de if, é so adicionar arromba para declarar C#*@
+
+
+<h2> Customers </h2>
+<p>@Html.ActionLink("New Customer", "New", "Customers", null,new {@class="btn btn-primary"})</p>
+<table id="customers" class="table table-bordered table-hover">
+
+    <thead>
+        <tr>
+            <th scope="col">Customer</th>
+            <th scope="col">Membership Type</th>
+            <th scope="col">Discount Rate</th>
+            <th scope="col">Membership Duration</th>
+            <th>Delete</th>
+        </tr>
+
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+@*Razor Syntax*@
+@*@{ if (!Model.Any())
+    {
+        <p>No customers available</p>
+    }
+    else
+    {
+        <table id ="customers" class="table table-bordered table-hover">
+
+            <thead>
+                <tr>
+                    <th scope="col">Customer</th>
+                    <th scope="col">Membership Type</th>
+                    <th scope="col">Discount Rate</th>
+                    <th scope="col">Membership Duration</th>
+                    <th>Delete</th>
+                </tr>
+
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    }
+
+}*@
+
+@*<h2>@Model.Name</h2>*@
+
+@*<h2>@(  ((Movie)ViewData["Movie"]).Name  )</h2> para pegar a proriedade dentro do controller, não
+    é o melhor formato para passar dados para a view, pela dificil manutenção*@
+
+@section scripts
+    {
+        <script>
+            $(document).ready(function () {
+                var table = $("#customers").DataTable({
+                    ajax: {
+                        url: "/api/customers",
+                        dataSrc:""
+                    },
+                    columns: [
+                        {
+                            data: "name",
+                            render: function (data, type, customer) {
+                                return "<a href= '/customers/edit/" + customer.id + "'>" + customer.name + "</a>";
+                            }
+                        },
+                        {
+                            data: "membershipType.name"
+
+                        },
+                        {
+                            data:"membershipType.discountRate"
+                        },
+                        {
+                            data: "membershipType.durationInMonths"
+                        },
+                        {
+                            data: "id",
+                            render: function (data) {
+                                return "<button class='btn-link js-delete' data-customer-id=" + data + ">Delete</button>"
+                            }
+                        }
+                    ]
+                });
+
+                $("#customers").on("click", ".js-delete", function () { //colocar o js-delete dentro da função, consome menos memoria, 
+                    //pois ao colocar em customers, a gente teria um handler para cada customer, deste jeito o handler fica atrelado a tabela de customers
+
+                    var button = $(this);
+
+                    bootbox.confirm("Are you sure you want to delete this customer ?", function (result) { //bootstrap dialog box
+                        if (result) {
+                            $.ajax({
+                                url: "/api/customers/" + button.attr("data-customer-id"),
+                                method: "DELETE",
+                                success: function () {
+                                    table.row(button.parents("tr").remove().draw()) //para remover as linhas até da pesquisa da tabela
+
+                                    //button.parents("tr").remove();
+                                }
+                            })
+                        }
+                    })
+                })
+            })
+        </script>
+    }

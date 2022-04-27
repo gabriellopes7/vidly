@@ -1,0 +1,54 @@
+﻿
+@model Vidly.ViewModels.CustomerFormViewModel
+@{
+    ViewBag.Title = Model.Title;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Title</h2>
+
+
+@using (Html.BeginForm("Save", "Customers"))
+{
+    @Html.ValidationSummary(false, "Please fix the following errors:")
+    <div class="form-group">
+        @* Para criar o label do form usando Razor Syntax *@
+        @Html.LabelFor(m => m.Customer.Name)
+        @Html.TextBoxFor(m => m.Customer.Name, new { @class = "form-control" }@*Serve para adicionarmos propriedades ao field*@)  @*Usando TextBoxFor ASP.NET automaticamente adiciona as validações do campo*@
+        @Html.ValidationMessageFor(m => m.Customer.Name)
+    </div>
+
+
+    //Drop Down List
+    <div class="form-group">
+        @* Para criar o label do form usando Razor Syntax *@
+        @Html.LabelFor(m => m.Customer.MembershipTypeId)
+        @*Argumentos de selectList = 1 -> Referencia da tabela de itens, 2 -> referencia da tabela principal, ou chave, 3-> Propriedade que será mostrada na lista*@
+        @*Argumentos Drow Down List -> Propriedade referencia, lista de itens, primeiro valor da lista*@
+        @Html.DropDownListFor(m => m.Customer.MembershipTypeId, new SelectList(Model.MembershipTypes, "Id", "Name"), "Select Membership Type", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.MembershipTypeId)
+    </div>
+
+    <div class="form-group">
+        @* Para criar o label do form usando Razor Syntax *@
+        <label for="BirthDate">Date of Birth</label>
+        @Html.TextBoxFor(m => m.Customer.BirthDate, "{0:d MMM yyyy}", new { @class = "form-control" }@*Serve para adicionarmos propriedades ao field*@)  @*Usando TextBoxFor ASP.NET automaticamente adiciona as validações do campo*@
+        @Html.ValidationMessageFor(m => m.Customer.BirthDate)
+    </div>
+    <div class="form-check">
+        <label class="form-check-label" for="flexCheckDefault">
+            @Html.CheckBoxFor(m => m.Customer.IsSubscribedToNewsletter) Subscribed to Newsletter ?
+        </label>
+    </div>
+    //tipo submit para o tipo do botao, classe btn é required por todos os botoes
+    @Html.HiddenFor(m => m.Customer.Id)
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-primary">Save</button>
+}
+@section scripts{
+
+    @Scripts.Render("~/bundles/jqueryval")
+
+    } 
+    
+    @*Habilitando o client-side validation*@
