@@ -4,12 +4,22 @@ i:{00000000-0000-0000-0000-000000000000}:Vidly.sln
 i:{00000000-0000-0000-0000-000000000000}:Vidly
 ++Properties
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\
+++PublishProfiles
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\publishprofiles\
+++AssemblyInfo.cs
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\assemblyinfo.cs
+++serviceDependencies.json
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\servicedependencies.json
+++serviceDependencies.local.json
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\servicedependencies.local.json
+++serviceDependencies.local.json.user
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\servicedependencies.local.json.user
 ++References
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:
 ++App_Data
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\app_data\
-++aspnet-Vidly-20220207020019.mdf
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\app_data\aspnet-vidly-20220207020019.mdf
+++App_Readme
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\app_readme\
 ++App_Start
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\app_start\
 ++BundleConfig.cs
@@ -28,8 +38,10 @@ i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\app_start\webapiconfig.cs
 ++bin
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\bin\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\
 ++Content
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\
 ++Controllers
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\controllers\
 ++Api
@@ -42,14 +54,15 @@ i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\controllers\moviescontroller.cs
 ++NewRentalsController.cs
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\controllers\api\newrentalscontroller.cs
+++RentalsController.cs
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\controllers\api\rentalscontroller.cs
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\controllers\rentalscontroller.cs
 ++AccountController.cs
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\controllers\accountcontroller.cs
 ++HomeController.cs
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\controllers\homecontroller.cs
 ++ManageController.cs
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\controllers\managecontroller.cs
-++RentalsController.cs
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\controllers\rentalscontroller.cs
 ++Dtos
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\dtos\
 ++CustomerDto.cs
@@ -62,8 +75,11 @@ i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\dtos\moviedto.cs
 ++NewRentalDto.cs
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\dtos\newrentaldto.cs
+++RentalDto.cs
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\dtos\rentaldto.cs
 ++fonts
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\fonts\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\fonts\
 ++Migrations
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\migrations\
 ++202202121957385_InitialModel.cs
@@ -130,81 +146,151 @@ i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\
 ++Scripts
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\
 ++ViewModels
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\viewmodels\
 ++Views
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\profiletransformwebconfig\transformed\views\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\transformwebconfig\transformed\views\
 ++Account
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\account\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\account\
 ++_ExternalLoginsListPartial.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\account\_externalloginslistpartial.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\account\_externalloginslistpartial.cshtml
 ++ConfirmEmail.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\account\confirmemail.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\account\confirmemail.cshtml
 ++ExternalLoginConfirmation.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\account\externalloginconfirmation.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\account\externalloginconfirmation.cshtml
 ++ExternalLoginFailure.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\account\externalloginfailure.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\account\externalloginfailure.cshtml
 ++ForgotPassword.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\account\forgotpassword.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\account\forgotpassword.cshtml
 ++ForgotPasswordConfirmation.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\account\forgotpasswordconfirmation.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\account\forgotpasswordconfirmation.cshtml
 ++Login.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\account\login.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\account\login.cshtml
 ++Register.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\account\register.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\account\register.cshtml
 ++ResetPassword.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\account\resetpassword.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\account\resetpassword.cshtml
 ++ResetPasswordConfirmation.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\account\resetpasswordconfirmation.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\account\resetpasswordconfirmation.cshtml
 ++SendCode.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\account\sendcode.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\account\sendcode.cshtml
 ++VerifyCode.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\account\verifycode.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\account\verifycode.cshtml
 ++Customers
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\customers\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\customers\
+++CustomerForm.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\customers\customerform.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\customers\customerform.cshtml
+++Details.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\customers\details.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\movies\details.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\customers\details.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\movies\details.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\rentals\details.cshtml
+++Index.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\customers\index.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\home\index.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\rentals\index.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\manage\index.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\customers\index.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\home\index.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\manage\index.cshtml
+++Random.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\customers\random.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\movies\random.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\customers\random.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\movies\random.cshtml
 ++Home
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\home\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\home\
 ++About.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\home\about.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\home\about.cshtml
 ++Contact.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\home\contact.cshtml
-++Index.cshtml
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\home\index.cshtml
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\customers\index.cshtml
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\manage\index.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\home\contact.cshtml
 ++Manage
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\manage\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\manage\
 ++Movies
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\movies\
-++Details.cshtml
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\movies\details.cshtml
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\customers\details.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\movies\
 ++List.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\movies\list.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\movies\list.cshtml
 ++MovieForm.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\movies\movieform.cshtml
-++Random.cshtml
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\movies\random.cshtml
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\customers\random.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\movies\movieform.cshtml
 ++ReadOnlyList.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\movies\readonlylist.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\movies\readonlylist.cshtml
 ++Rentals
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\rentals\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\rentals\
 ++New.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\rentals\new.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\rentals\new.cshtml
 ++Shared
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\shared\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\shared\
+++_Layout.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\shared\_layout.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\shared\_layout.cshtml
+++_LoginPartial.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\shared\_loginpartial.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\shared\_loginpartial.cshtml
+++_NavBar.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\shared\_navbar.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\shared\_navbar.cshtml
+++Error.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\shared\error.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\shared\error.cshtml
+++Lockout.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\shared\lockout.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\shared\lockout.cshtml
 ++_ViewStart.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\_viewstart.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\_viewstart.cshtml
 ++Web.config
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\web.config
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\web.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\web.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\web.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\transformwebconfig\assist\web.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\transformwebconfig\original\web.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\transformwebconfig\transformed\web.config
+++404.html
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\404.html
+++AppSetings.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\appsetings.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\appsetings.config
+++ConnectionStrings.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\connectionstrings.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\connectionstrings.config
 ++favicon.ico
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\favicon.ico
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\favicon.ico
 ++Global.asax
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\global.asax
-++Global.asax.cs
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\global.asax.cs
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\global.asax
 ++packages.config
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\packages.config
 ++Startup.cs
@@ -213,17 +299,21 @@ i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\web.debug.config
 ++Web.Release.config
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\web.release.config
-++AssemblyInfo.cs
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\assemblyinfo.cs
-++serviceDependencies.json
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\servicedependencies.json
-++serviceDependencies.local.json
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\servicedependencies.local.json
-++serviceDependencies.local.json.user
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\servicedependencies.local.json.user
+++Web.Testing.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\web.testing.config
+++GoDaddyProfile.pubxml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\publishprofiles\godaddyprofile.pubxml
+++GoDaddyProfile.pubxml.user
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\publishprofiles\godaddyprofile.pubxml.user
+++Testing.pubxml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\publishprofiles\testing.pubxml
+++Testing.pubxml.user
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\properties\publishprofiles\testing.pubxml.user
 ++Antlr3.Runtime
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:
 ++AutoMapper
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:
+++Elmah
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:
 ++EntityFramework
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:
@@ -325,45 +415,85 @@ i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:
 ++WebGrease
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:
-++aspnet-Vidly-20220207020019_log.ldf
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\app_data\aspnet-vidly-20220207020019_log.ldf
+++aspnet-Vidly-20220207020019.mdf
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\app_data\aspnet-vidly-20220207020019.mdf
+++Elmah.txt
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\app_readme\elmah.txt
 ++Vidly.dll
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\bin\vidly.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\vidly.dll
 ++Vidly.pdb
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\bin\vidly.pdb
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.pdb
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.pdb
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\vidly.pdb
 ++DataTables
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\
 ++bootstrap-lumen.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\bootstrap-lumen.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\bootstrap-lumen.css
 ++bootstrap-theme.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\bootstrap-theme.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\bootstrap-theme.css
 ++bootstrap-theme.css.map
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\bootstrap-theme.css.map
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\bootstrap-theme.css.map
 ++bootstrap-theme.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\bootstrap-theme.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\bootstrap-theme.min.css
 ++bootstrap-theme.min.css.map
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\bootstrap-theme.min.css.map
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\bootstrap-theme.min.css.map
 ++bootstrap.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\bootstrap.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\bootstrap.css
 ++bootstrap.css.map
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\bootstrap.css.map
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\bootstrap.css.map
 ++bootstrap.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\bootstrap.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\bootstrap.min.css
 ++bootstrap.min.css.map
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\bootstrap.min.css.map
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\bootstrap.min.css.map
 ++Site.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\site.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\site.css
+++toastr.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\toastr.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\toastr.css
+++toastr.less
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\toastr.less
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\toastr.less
+++toastr.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\toastr.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\toastr.min.css
+++toastr.scss
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\toastr.scss
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\toastr.scss
+++typeahead.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\typeahead.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\typeahead.css
 ++glyphicons-halflings-regular.eot
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\fonts\glyphicons-halflings-regular.eot
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\fonts\glyphicons-halflings-regular.eot
 ++glyphicons-halflings-regular.svg
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\fonts\glyphicons-halflings-regular.svg
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\fonts\glyphicons-halflings-regular.svg
 ++glyphicons-halflings-regular.ttf
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\fonts\glyphicons-halflings-regular.ttf
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\fonts\glyphicons-halflings-regular.ttf
 ++glyphicons-halflings-regular.woff
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\fonts\glyphicons-halflings-regular.woff
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\fonts\glyphicons-halflings-regular.woff
 ++glyphicons-halflings-regular.woff2
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\fonts\glyphicons-halflings-regular.woff2
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\fonts\glyphicons-halflings-regular.woff2
 ++202202121957385_InitialModel.designer.cs
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\migrations\202202121957385_initialmodel.designer.cs
 ++202202121957385_InitialModel.resx
@@ -438,40 +568,166 @@ i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\migrations\202204042101351_addnumberavailablepropertyinmovieclass.resx
 ++Debug
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\
+++Release
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\
+++Package
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\
+++PackageTmp
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\
+++ProfileTransformWebConfig
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\profiletransformwebconfig\
+++TempPE
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\temppe\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\temppe\
+++TransformWebConfig
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\transformwebconfig\
+++.NETFramework,Version=v4.8.AssemblyAttributes.cs
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\.netframework,version=v4.8.assemblyattributes.cs
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\.netframework,version=v4.8.assemblyattributes.cs
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\testing\.netframework,version=v4.8.assemblyattributes.cs
+++_WPPLastBuildInfo.txt
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\_wpplastbuildinfo.txt
+++Vidly.csproj.AssemblyReference.cache
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.csproj.assemblyreference.cache
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.csproj.assemblyreference.cache
+++Vidly.csproj.CoreCompileInputs.cache
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.csproj.corecompileinputs.cache
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.csproj.corecompileinputs.cache
+++Vidly.csproj.FileListAbsolute.txt
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.csproj.filelistabsolute.txt
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.csproj.filelistabsolute.txt
+++Vidly.csproj.GenerateResource.cache
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.csproj.generateresource.cache
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.csproj.generateresource.cache
+++Vidly.Migrations.AddBirthDateToCustomerTable.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.addbirthdatetocustomertable.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.addbirthdatetocustomertable.resources
+++Vidly.Migrations.AddClassGenreAndAttributeGenreForMovie.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.addclassgenreandattributegenreformovie.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.addclassgenreandattributegenreformovie.resources
+++Vidly.Migrations.AddDrivingLicenseToApplicationUser.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.adddrivinglicensetoapplicationuser.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.adddrivinglicensetoapplicationuser.resources
+++Vidly.Migrations.AddingPropertiesInMovieTable.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.addingpropertiesinmovietable.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.addingpropertiesinmovietable.resources
+++Vidly.Migrations.AddIsSubscribedToCustomer.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.addissubscribedtocustomer.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.addissubscribedtocustomer.resources
+++Vidly.Migrations.AddMembershipType.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.addmembershiptype.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.addmembershiptype.resources
+++Vidly.Migrations.AddNamesToMembershipTypeTable.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.addnamestomembershiptypetable.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.addnamestomembershiptypetable.resources
+++Vidly.Migrations.AddNewPropertyToMembershipType.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.addnewpropertytomembershiptype.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.addnewpropertytomembershiptype.resources
+++Vidly.Migrations.AddNumberAvailablePropertyInMovieClass.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.addnumberavailablepropertyinmovieclass.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.addnumberavailablepropertyinmovieclass.resources
+++Vidly.Migrations.AddPhoneNumberToApplicationUser.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.addphonenumbertoapplicationuser.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.addphonenumbertoapplicationuser.resources
+++Vidly.Migrations.ApplyAnnoationsToCustomerName.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.applyannoationstocustomername.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.applyannoationstocustomername.resources
+++Vidly.Migrations.InitialModel.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.initialmodel.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.initialmodel.resources
+++Vidly.Migrations.InsertGenreTypesInGenreTable.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.insertgenretypesingenretable.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.insertgenretypesingenretable.resources
+++Vidly.Migrations.PendingChanges.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.pendingchanges.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.pendingchanges.resources
+++Vidly.Migrations.PopulateMembershipTypes.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.populatemembershiptypes.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.populatemembershiptypes.resources
+++Vidly.Migrations.SeedUsers.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.seedusers.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.seedusers.resources
+++Vidly.Migrations.UpdatingBirthDateColumnInCustomer.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.updatingbirthdatecolumnincustomer.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.updatingbirthdatecolumnincustomer.resources
+++Vidly.Migrations.UpdatingPropertiesMoviesTable.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\vidly.migrations.updatingpropertiesmoviestable.resources
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.migrations.updatingpropertiesmoviestable.resources
+++Testing
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\testing\
+++bloodhound.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\bloodhound.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\bloodhound.js
+++bloodhound.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\bloodhound.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\bloodhound.min.js
 ++bootbox.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\bootbox.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\bootbox.js
 ++bootbox.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\bootbox.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\bootbox.min.js
 ++bootstrap.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\bootstrap.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\bootstrap.js
 ++bootstrap.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\bootstrap.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\bootstrap.min.js
 ++jquery-3.4.1.intellisense.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\jquery-3.4.1.intellisense.js
 ++jquery-3.4.1.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\jquery-3.4.1.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\jquery-3.4.1.js
 ++jquery-3.4.1.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\jquery-3.4.1.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\jquery-3.4.1.min.js
 ++jquery-3.4.1.min.map
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\jquery-3.4.1.min.map
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\jquery-3.4.1.min.map
 ++jquery-3.4.1.slim.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\jquery-3.4.1.slim.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\jquery-3.4.1.slim.js
 ++jquery-3.4.1.slim.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\jquery-3.4.1.slim.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\jquery-3.4.1.slim.min.js
 ++jquery-3.4.1.slim.min.map
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\jquery-3.4.1.slim.min.map
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\jquery-3.4.1.slim.min.map
 ++jquery.validate-vsdoc.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\jquery.validate-vsdoc.js
 ++jquery.validate.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\jquery.validate.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\jquery.validate.js
 ++jquery.validate.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\jquery.validate.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\jquery.validate.min.js
 ++jquery.validate.unobtrusive.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\jquery.validate.unobtrusive.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\jquery.validate.unobtrusive.js
 ++jquery.validate.unobtrusive.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\jquery.validate.unobtrusive.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\jquery.validate.unobtrusive.min.js
 ++modernizr-2.8.3.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\modernizr-2.8.3.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\modernizr-2.8.3.js
+++toastr.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\toastr.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\toastr.js
+++toastr.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\toastr.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\toastr.min.js
+++typeahead.bundle.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\typeahead.bundle.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\typeahead.bundle.js
+++typeahead.bundle.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\typeahead.bundle.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\typeahead.bundle.min.js
+++typeahead.jquery.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\typeahead.jquery.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\typeahead.jquery.js
+++typeahead.jquery.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\typeahead.jquery.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\typeahead.jquery.min.js
 ++CustomerFormViewModel.cs
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\viewmodels\customerformviewmodel.cs
 ++MovieFormViewModel.cs
@@ -480,408 +736,727 @@ i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\viewmodels\randomcustomerviewmodel.cs
 ++RandomMovieViewModel.cs
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\viewmodels\randommovieviewmodel.cs
-++CustomerForm.cshtml
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\customers\customerform.cshtml
 ++AddPhoneNumber.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\manage\addphonenumber.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\manage\addphonenumber.cshtml
 ++ChangePassword.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\manage\changepassword.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\manage\changepassword.cshtml
 ++ManageLogins.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\manage\managelogins.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\manage\managelogins.cshtml
 ++SetPassword.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\manage\setpassword.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\manage\setpassword.cshtml
 ++VerifyPhoneNumber.cshtml
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\manage\verifyphonenumber.cshtml
-++_Layout.cshtml
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\shared\_layout.cshtml
-++_LoginPartial.cshtml
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\shared\_loginpartial.cshtml
-++_NavBar.cshtml
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\shared\_navbar.cshtml
-++Error.cshtml
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\shared\error.cshtml
-++Lockout.cshtml
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\views\shared\lockout.cshtml
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\views\manage\verifyphonenumber.cshtml
+++Global.asax.cs
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\global.asax.cs
+++aspnet-Vidly-20220207020019_log.ldf
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\app_data\aspnet-vidly-20220207020019_log.ldf
 ++css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\
 ++images
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\images\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\images\
 ++swf
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\swf\
-++.NETFramework,Version=v4.8.AssemblyAttributes.cs
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\.netframework,version=v4.8.assemblyattributes.cs
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\swf\
+++DesignTimeResolveAssemblyReferences.cache
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\designtimeresolveassemblyreferences.cache
+++DesignTimeResolveAssemblyReferencesInput.cache
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\designtimeresolveassemblyreferencesinput.cache
+++Vidly.csproj.CopyComplete
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\debug\vidly.csproj.copycomplete
+++roslyn
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\
+++Antlr3.Runtime.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\antlr3.runtime.dll
+++Antlr3.Runtime.pdb
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\antlr3.runtime.pdb
+++AutoMapper.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\automapper.dll
+++EntityFramework.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\entityframework.dll
+++EntityFramework.SqlServer.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\entityframework.sqlserver.dll
+++Microsoft.AspNet.Identity.Core.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.aspnet.identity.core.dll
+++Microsoft.AspNet.Identity.EntityFramework.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.aspnet.identity.entityframework.dll
+++Microsoft.AspNet.Identity.Owin.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.aspnet.identity.owin.dll
+++Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.codedom.providers.dotnetcompilerplatform.dll
+++Microsoft.Owin.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.owin.dll
+++Microsoft.Owin.Host.SystemWeb.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.owin.host.systemweb.dll
+++Microsoft.Owin.Security.Cookies.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.owin.security.cookies.dll
+++Microsoft.Owin.Security.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.owin.security.dll
+++Microsoft.Owin.Security.Facebook.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.owin.security.facebook.dll
+++Microsoft.Owin.Security.Google.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.owin.security.google.dll
+++Microsoft.Owin.Security.MicrosoftAccount.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.owin.security.microsoftaccount.dll
+++Microsoft.Owin.Security.OAuth.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.owin.security.oauth.dll
+++Microsoft.Owin.Security.Twitter.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.owin.security.twitter.dll
+++Microsoft.Web.Infrastructure.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\microsoft.web.infrastructure.dll
+++Newtonsoft.Json.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\newtonsoft.json.dll
+++Owin.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\owin.dll
+++System.Net.Http.Formatting.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\system.net.http.formatting.dll
+++System.Web.Helpers.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\system.web.helpers.dll
+++System.Web.Http.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\system.web.http.dll
+++System.Web.Http.WebHost.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\system.web.http.webhost.dll
+++System.Web.Mvc.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\system.web.mvc.dll
+++System.Web.Optimization.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\system.web.optimization.dll
+++System.Web.Razor.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\system.web.razor.dll
+++System.Web.WebPages.Deployment.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\system.web.webpages.deployment.dll
+++System.Web.WebPages.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\system.web.webpages.dll
+++System.Web.WebPages.Razor.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\system.web.webpages.razor.dll
+++WebGrease.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\webgrease.dll
+++transformed
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\profiletransformwebconfig\transformed\
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\transformwebconfig\transformed\
+++assist
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\transformwebconfig\assist\
+++original
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\transformwebconfig\original\
 ++autoFill.bootstrap.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\autofill.bootstrap.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\autofill.bootstrap.js
 ++autoFill.bootstrap.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\autofill.bootstrap.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\autofill.bootstrap.min.js
 ++autoFill.foundation.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\autofill.foundation.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\autofill.foundation.js
 ++autoFill.foundation.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\autofill.foundation.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\autofill.foundation.min.js
 ++autoFill.jqueryui.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\autofill.jqueryui.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\autofill.jqueryui.js
 ++autoFill.jqueryui.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\autofill.jqueryui.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\autofill.jqueryui.min.js
 ++buttons.bootstrap.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.bootstrap.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.bootstrap.js
 ++buttons.bootstrap.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.bootstrap.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.bootstrap.min.js
 ++buttons.bootstrap4.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.bootstrap4.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.bootstrap4.js
 ++buttons.bootstrap4.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.bootstrap4.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.bootstrap4.min.js
 ++buttons.colVis.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.colvis.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.colvis.js
 ++buttons.colVis.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.colvis.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.colvis.min.js
 ++buttons.flash.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.flash.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.flash.js
 ++buttons.flash.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.flash.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.flash.min.js
 ++buttons.foundation.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.foundation.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.foundation.js
 ++buttons.foundation.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.foundation.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.foundation.min.js
 ++buttons.html5.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.html5.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.html5.js
 ++buttons.html5.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.html5.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.html5.min.js
 ++buttons.jqueryui.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.jqueryui.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.jqueryui.js
 ++buttons.jqueryui.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.jqueryui.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.jqueryui.min.js
 ++buttons.print.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.print.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.print.js
 ++buttons.print.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\buttons.print.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\buttons.print.min.js
 ++dataTables.autoFill.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.autofill.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.autofill.js
 ++dataTables.autoFill.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.autofill.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.autofill.min.js
 ++dataTables.bootstrap.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.bootstrap.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.bootstrap.js
 ++dataTables.bootstrap.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.bootstrap.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.bootstrap.min.js
 ++dataTables.bootstrap4.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.bootstrap4.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.bootstrap4.js
 ++dataTables.bootstrap4.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.bootstrap4.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.bootstrap4.min.js
 ++dataTables.buttons.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.buttons.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.buttons.js
 ++dataTables.buttons.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.buttons.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.buttons.min.js
 ++dataTables.colReorder.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.colreorder.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.colreorder.js
 ++dataTables.colReorder.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.colreorder.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.colreorder.min.js
 ++dataTables.fixedColumns.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.fixedcolumns.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.fixedcolumns.js
 ++dataTables.fixedColumns.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.fixedcolumns.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.fixedcolumns.min.js
 ++dataTables.fixedHeader.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.fixedheader.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.fixedheader.js
 ++dataTables.fixedHeader.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.fixedheader.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.fixedheader.min.js
 ++dataTables.foundation.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.foundation.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.foundation.js
 ++dataTables.foundation.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.foundation.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.foundation.min.js
 ++dataTables.jqueryui.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.jqueryui.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.jqueryui.js
 ++dataTables.jqueryui.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.jqueryui.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.jqueryui.min.js
 ++dataTables.keyTable.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.keytable.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.keytable.js
 ++dataTables.keyTable.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.keytable.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.keytable.min.js
 ++dataTables.material.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.material.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.material.js
 ++dataTables.material.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.material.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.material.min.js
 ++dataTables.responsive.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.responsive.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.responsive.js
 ++dataTables.responsive.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.responsive.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.responsive.min.js
 ++dataTables.rowReorder.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.rowreorder.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.rowreorder.js
 ++dataTables.rowReorder.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.rowreorder.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.rowreorder.min.js
 ++dataTables.scroller.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.scroller.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.scroller.js
 ++dataTables.scroller.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.scroller.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.scroller.min.js
 ++dataTables.select.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.select.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.select.js
 ++dataTables.select.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.select.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.select.min.js
 ++dataTables.semanticui.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.semanticui.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.semanticui.js
 ++dataTables.semanticui.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.semanticui.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.semanticui.min.js
 ++dataTables.uikit.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.uikit.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.uikit.js
 ++dataTables.uikit.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\datatables.uikit.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\datatables.uikit.min.js
 ++jquery.dataTables.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\jquery.datatables.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\jquery.datatables.js
 ++jquery.dataTables.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\jquery.datatables.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\jquery.datatables.min.js
 ++responsive.bootstrap.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\responsive.bootstrap.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\responsive.bootstrap.js
 ++responsive.bootstrap.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\responsive.bootstrap.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\responsive.bootstrap.min.js
 ++responsive.foundation.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\responsive.foundation.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\responsive.foundation.js
 ++responsive.foundation.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\responsive.foundation.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\responsive.foundation.min.js
 ++responsive.jqueryui.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\responsive.jqueryui.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\responsive.jqueryui.js
 ++responsive.jqueryui.min.js
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\datatables\responsive.jqueryui.min.js
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\scripts\datatables\responsive.jqueryui.min.js
 ++autoFill.bootstrap.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\autofill.bootstrap.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\autofill.bootstrap.css
 ++autoFill.bootstrap.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\autofill.bootstrap.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\autofill.bootstrap.min.css
 ++autoFill.dataTables.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\autofill.datatables.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\autofill.datatables.css
 ++autoFill.dataTables.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\autofill.datatables.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\autofill.datatables.min.css
 ++autoFill.foundation.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\autofill.foundation.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\autofill.foundation.css
 ++autoFill.foundation.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\autofill.foundation.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\autofill.foundation.min.css
 ++autoFill.jqueryui.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\autofill.jqueryui.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\autofill.jqueryui.css
 ++autoFill.jqueryui.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\autofill.jqueryui.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\autofill.jqueryui.min.css
 ++buttons.bootstrap.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\buttons.bootstrap.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\buttons.bootstrap.css
 ++buttons.bootstrap.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\buttons.bootstrap.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\buttons.bootstrap.min.css
 ++buttons.bootstrap4.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\buttons.bootstrap4.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\buttons.bootstrap4.css
 ++buttons.bootstrap4.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\buttons.bootstrap4.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\buttons.bootstrap4.min.css
 ++buttons.dataTables.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\buttons.datatables.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\buttons.datatables.css
 ++buttons.dataTables.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\buttons.datatables.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\buttons.datatables.min.css
 ++buttons.foundation.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\buttons.foundation.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\buttons.foundation.css
 ++buttons.foundation.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\buttons.foundation.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\buttons.foundation.min.css
 ++buttons.jqueryui.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\buttons.jqueryui.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\buttons.jqueryui.css
 ++buttons.jqueryui.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\buttons.jqueryui.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\buttons.jqueryui.min.css
 ++colReorder.bootstrap.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\colreorder.bootstrap.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\colreorder.bootstrap.css
 ++colReorder.bootstrap.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\colreorder.bootstrap.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\colreorder.bootstrap.min.css
 ++colReorder.dataTables.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\colreorder.datatables.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\colreorder.datatables.css
 ++colReorder.dataTables.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\colreorder.datatables.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\colreorder.datatables.min.css
 ++colReorder.foundation.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\colreorder.foundation.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\colreorder.foundation.css
 ++colReorder.foundation.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\colreorder.foundation.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\colreorder.foundation.min.css
 ++colReorder.jqueryui.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\colreorder.jqueryui.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\colreorder.jqueryui.css
 ++colReorder.jqueryui.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\colreorder.jqueryui.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\colreorder.jqueryui.min.css
 ++common.scss
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\common.scss
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\common.scss
 ++dataTables.bootstrap.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.bootstrap.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.bootstrap.css
 ++dataTables.bootstrap.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.bootstrap.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.bootstrap.min.css
 ++dataTables.bootstrap4.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.bootstrap4.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.bootstrap4.css
 ++dataTables.bootstrap4.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.bootstrap4.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.bootstrap4.min.css
 ++dataTables.foundation.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.foundation.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.foundation.css
 ++dataTables.foundation.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.foundation.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.foundation.min.css
 ++dataTables.jqueryui.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.jqueryui.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.jqueryui.css
 ++dataTables.jqueryui.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.jqueryui.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.jqueryui.min.css
 ++dataTables.material.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.material.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.material.css
 ++dataTables.material.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.material.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.material.min.css
 ++dataTables.semanticui.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.semanticui.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.semanticui.css
 ++dataTables.semanticui.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.semanticui.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.semanticui.min.css
 ++dataTables.uikit.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.uikit.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.uikit.css
 ++dataTables.uikit.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\datatables.uikit.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\datatables.uikit.min.css
 ++fixedColumns.bootstrap.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedcolumns.bootstrap.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedcolumns.bootstrap.css
 ++fixedColumns.bootstrap.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedcolumns.bootstrap.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedcolumns.bootstrap.min.css
 ++fixedColumns.dataTables.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedcolumns.datatables.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedcolumns.datatables.css
 ++fixedColumns.dataTables.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedcolumns.datatables.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedcolumns.datatables.min.css
 ++fixedColumns.foundation.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedcolumns.foundation.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedcolumns.foundation.css
 ++fixedColumns.foundation.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedcolumns.foundation.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedcolumns.foundation.min.css
 ++fixedColumns.jqueryui.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedcolumns.jqueryui.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedcolumns.jqueryui.css
 ++fixedColumns.jqueryui.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedcolumns.jqueryui.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedcolumns.jqueryui.min.css
 ++fixedHeader.bootstrap.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedheader.bootstrap.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedheader.bootstrap.css
 ++fixedHeader.bootstrap.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedheader.bootstrap.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedheader.bootstrap.min.css
 ++fixedHeader.dataTables.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedheader.datatables.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedheader.datatables.css
 ++fixedHeader.dataTables.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedheader.datatables.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedheader.datatables.min.css
 ++fixedHeader.foundation.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedheader.foundation.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedheader.foundation.css
 ++fixedHeader.foundation.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedheader.foundation.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedheader.foundation.min.css
 ++fixedHeader.jqueryui.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedheader.jqueryui.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedheader.jqueryui.css
 ++fixedHeader.jqueryui.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\fixedheader.jqueryui.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\fixedheader.jqueryui.min.css
 ++jquery.dataTables.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\jquery.datatables.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\jquery.datatables.css
 ++jquery.dataTables.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\jquery.datatables.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\jquery.datatables.min.css
 ++jquery.dataTables_themeroller.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\jquery.datatables_themeroller.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\jquery.datatables_themeroller.css
 ++keyTable.bootstrap.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\keytable.bootstrap.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\keytable.bootstrap.css
 ++keyTable.bootstrap.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\keytable.bootstrap.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\keytable.bootstrap.min.css
 ++keyTable.dataTables.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\keytable.datatables.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\keytable.datatables.css
 ++keyTable.dataTables.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\keytable.datatables.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\keytable.datatables.min.css
 ++keyTable.foundation.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\keytable.foundation.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\keytable.foundation.css
 ++keyTable.foundation.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\keytable.foundation.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\keytable.foundation.min.css
 ++keyTable.jqueryui.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\keytable.jqueryui.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\keytable.jqueryui.css
 ++keyTable.jqueryui.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\keytable.jqueryui.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\keytable.jqueryui.min.css
 ++mixins.scss
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\mixins.scss
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\mixins.scss
 ++responsive.bootstrap.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\responsive.bootstrap.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\responsive.bootstrap.css
 ++responsive.bootstrap.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\responsive.bootstrap.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\responsive.bootstrap.min.css
 ++responsive.dataTables.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\responsive.datatables.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\responsive.datatables.css
 ++responsive.dataTables.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\responsive.datatables.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\responsive.datatables.min.css
 ++responsive.foundation.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\responsive.foundation.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\responsive.foundation.css
 ++responsive.foundation.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\responsive.foundation.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\responsive.foundation.min.css
 ++responsive.jqueryui.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\responsive.jqueryui.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\responsive.jqueryui.css
 ++responsive.jqueryui.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\responsive.jqueryui.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\responsive.jqueryui.min.css
 ++rowReorder.bootstrap.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\rowreorder.bootstrap.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\rowreorder.bootstrap.css
 ++rowReorder.bootstrap.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\rowreorder.bootstrap.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\rowreorder.bootstrap.min.css
 ++rowReorder.dataTables.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\rowreorder.datatables.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\rowreorder.datatables.css
 ++rowReorder.dataTables.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\rowreorder.datatables.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\rowreorder.datatables.min.css
 ++rowReorder.foundation.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\rowreorder.foundation.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\rowreorder.foundation.css
 ++rowReorder.foundation.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\rowreorder.foundation.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\rowreorder.foundation.min.css
 ++rowReorder.jqueryui.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\rowreorder.jqueryui.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\rowreorder.jqueryui.css
 ++rowReorder.jqueryui.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\rowreorder.jqueryui.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\rowreorder.jqueryui.min.css
 ++scroller.bootstrap.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\scroller.bootstrap.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\scroller.bootstrap.css
 ++scroller.bootstrap.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\scroller.bootstrap.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\scroller.bootstrap.min.css
 ++scroller.dataTables.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\scroller.datatables.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\scroller.datatables.css
 ++scroller.dataTables.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\scroller.datatables.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\scroller.datatables.min.css
 ++scroller.foundation.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\scroller.foundation.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\scroller.foundation.css
 ++scroller.foundation.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\scroller.foundation.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\scroller.foundation.min.css
 ++scroller.jqueryui.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\scroller.jqueryui.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\scroller.jqueryui.css
 ++scroller.jqueryui.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\scroller.jqueryui.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\scroller.jqueryui.min.css
 ++select.bootstrap.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\select.bootstrap.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\select.bootstrap.css
 ++select.bootstrap.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\select.bootstrap.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\select.bootstrap.min.css
 ++select.dataTables.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\select.datatables.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\select.datatables.css
 ++select.dataTables.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\select.datatables.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\select.datatables.min.css
 ++select.foundation.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\select.foundation.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\select.foundation.css
 ++select.foundation.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\select.foundation.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\select.foundation.min.css
 ++select.jqueryui.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\select.jqueryui.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\select.jqueryui.css
 ++select.jqueryui.min.css
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\css\select.jqueryui.min.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\css\select.jqueryui.min.css
 ++details_close.png
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\images\details_close.png
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\images\details_close.png
 ++details_open.png
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\images\details_open.png
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\images\details_open.png
 ++sort_asc.png
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\images\sort_asc.png
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\images\sort_asc.png
 ++sort_asc_disabled.png
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\images\sort_asc_disabled.png
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\images\sort_asc_disabled.png
 ++sort_both.png
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\images\sort_both.png
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\images\sort_both.png
 ++sort_desc.png
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\images\sort_desc.png
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\images\sort_desc.png
 ++sort_desc_disabled.png
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\images\sort_desc_disabled.png
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\images\sort_desc_disabled.png
 ++flashExport.swf
 i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\datatables\swf\flashexport.swf
-++typeahead.jquery.min.js
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\typeahead.jquery.min.js
-++typeahead.jquery.js
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\typeahead.jquery.js
-++typeahead.bundle.min.js
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\typeahead.bundle.min.js
-++typeahead.bundle.js
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\typeahead.bundle.js
-++bloodhound.min.js
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\bloodhound.min.js
-++bloodhound.js
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\bloodhound.js
-++typeahead.css
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\typeahead.css
-++ToolBelt
-++Toast
-++Toaster
-++toastr.min.js
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\toastr.min.js
-++toastr.js
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\scripts\toastr.js
-++toastr.scss
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\toastr.scss
-++toastr.min.css
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\toastr.min.css
-++toastr.less
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\toastr.less
-++toastr.css
-i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\content\toastr.css
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\content\datatables\swf\flashexport.swf
+++csc.exe
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\csc.exe
+++csc.exe.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\csc.exe.config
+++csc.rsp
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\csc.rsp
+++csi.exe
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\csi.exe
+++csi.exe.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\csi.exe.config
+++csi.rsp
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\csi.rsp
+++Microsoft.Build.Tasks.CodeAnalysis.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\microsoft.build.tasks.codeanalysis.dll
+++Microsoft.CodeAnalysis.CSharp.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\microsoft.codeanalysis.csharp.dll
+++Microsoft.CodeAnalysis.CSharp.Scripting.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\microsoft.codeanalysis.csharp.scripting.dll
+++Microsoft.CodeAnalysis.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\microsoft.codeanalysis.dll
+++Microsoft.CodeAnalysis.Scripting.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\microsoft.codeanalysis.scripting.dll
+++Microsoft.CodeAnalysis.VisualBasic.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\microsoft.codeanalysis.visualbasic.dll
+++Microsoft.CSharp.Core.targets
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.DiaSymReader.Native.amd64.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\microsoft.diasymreader.native.amd64.dll
+++Microsoft.DiaSymReader.Native.x86.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\microsoft.diasymreader.native.x86.dll
+++Microsoft.Managed.Core.targets
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.VisualBasic.Core.targets
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\microsoft.visualbasic.core.targets
+++Microsoft.Win32.Primitives.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\microsoft.win32.primitives.dll
+++System.AppContext.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.appcontext.dll
+++System.Collections.Immutable.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.collections.immutable.dll
+++System.Console.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.console.dll
+++System.Diagnostics.DiagnosticSource.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.diagnostics.diagnosticsource.dll
+++System.Diagnostics.FileVersionInfo.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.diagnostics.fileversioninfo.dll
+++System.Diagnostics.StackTrace.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.diagnostics.stacktrace.dll
+++System.Globalization.Calendars.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.globalization.calendars.dll
+++System.IO.Compression.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.io.compression.dll
+++System.IO.Compression.ZipFile.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.io.compression.zipfile.dll
+++System.IO.FileSystem.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.io.filesystem.dll
+++System.IO.FileSystem.Primitives.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.io.filesystem.primitives.dll
+++System.Net.Http.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.net.http.dll
+++System.Net.Sockets.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.net.sockets.dll
+++System.Reflection.Metadata.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.reflection.metadata.dll
+++System.Runtime.InteropServices.RuntimeInformation.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.runtime.interopservices.runtimeinformation.dll
+++System.Security.Cryptography.Algorithms.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.security.cryptography.algorithms.dll
+++System.Security.Cryptography.Encoding.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.security.cryptography.encoding.dll
+++System.Security.Cryptography.Primitives.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.security.cryptography.primitives.dll
+++System.Security.Cryptography.X509Certificates.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.security.cryptography.x509certificates.dll
+++System.Text.Encoding.CodePages.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.text.encoding.codepages.dll
+++System.Threading.Tasks.Extensions.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.threading.tasks.extensions.dll
+++System.ValueTuple.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.valuetuple.dll
+++System.Xml.ReaderWriter.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.xml.readerwriter.dll
+++System.Xml.XmlDocument.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.xml.xmldocument.dll
+++System.Xml.XPath.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.xml.xpath.dll
+++System.Xml.XPath.XDocument.dll
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\system.xml.xpath.xdocument.dll
+++vbc.exe
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\vbc.exe
+++vbc.exe.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\vbc.exe.config
+++vbc.rsp
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\vbc.rsp
+++VBCSCompiler.exe
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\vbcscompiler.exe
+++VBCSCompiler.exe.config
+i:{20a0d70b-be91-4899-929e-86a6e66c22b3}:d:\documentos\cursos\.net developer\asp.net mvc 5\projects\vidly\vidly\obj\release\package\packagetmp\bin\roslyn\vbcscompiler.exe.config

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 using Vidly.Dtos;
@@ -34,6 +33,8 @@ namespace Vidly.Controllers.Api
             var movies = _context.Movies.Where(m => newRental.MovieIds.Contains(m.Id)).ToList();
 
 
+
+
             //if (movies.Count != newRental.MovieIds.Count)
             //    return BadRequest("One or more MovieIds are invalid.");
 
@@ -41,6 +42,9 @@ namespace Vidly.Controllers.Api
 
             //if (customer == null)
             //    return BadRequest("Invalid customer ID.");//Para caso de APIs abertas
+
+            if (movies.Count > 5)
+                return BadRequest("You can't rent more than 5 movies.");
 
             foreach (var movie in movies)
             {
@@ -65,10 +69,6 @@ namespace Vidly.Controllers.Api
             return Ok();
         }
 
-        public IEnumerable<NewRentalDto> GetRentals(string query = null)
-        {
-
-        }
 
     }
 }

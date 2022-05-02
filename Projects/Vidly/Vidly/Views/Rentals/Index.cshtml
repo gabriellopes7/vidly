@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Vidly.ViewModels.IndexRentalsViewModel>
+@{
+    ViewBag.Title = "Rentals";
+}
+
+<h2>Rentals</h2>
+
+<p>@Html.ActionLink("New Rental", "New", "Rentals", null, new { @class = "btn btn-primary" })</p>
+
+@*<table id="rentals" class="table table-bordered table-hover">
+
+    <thead>
+        <tr>
+            <th scope="col">Customer</th>
+            <th scope="col">Rentals</th>
+        </tr>
+
+    </thead>
+    </tbody>
+</table>*@
+
+
+
+@{ if (!Model.Any())
+        {
+            <p>This customer has not rented any movie.</p>
+        }
+    else
+    {
+            <table id="rentals" class="table table-bordered table-hover">
+
+                <thead>
+                    <tr>
+                        <th scope="col">Customer</th>
+
+                        <th scope="col">Rentals</th>
+                    </tr>
+
+                </thead>
+        
+                
+                @*Razor Syntax*@
+                <tbody>
+                        @foreach (var rental in Model)
+
+                        {
+                        <tr class="table-active">
+                            <td>
+                                @Html.ActionLink(rental.CustomerName, "Details", "Rentals", new { id = rental.CustomerId }, null)
+                            </td>
+                            <td>
+                                @rental.RentalsCount
+                            </td>
+                        </tr>
+                        }
+                    </tbody>
+                <tbody>
+                </tbody>
+            </table>
+        }
+
+    }
+
+
+@*@section scripts
+    {
+    <script>
+            $(document).ready(function () {
+
+                var table = $("#rentals").DataTable({
+
+                    ajax: {
+                        url: "/api/rentals",
+                        dataSrc: ""
+                    },
+                    columns: [
+                        {
+                            data: "customerId",
+                            render: function (data, type, rental) {
+                                return "<a href='/rentals/" + rental.customerId + "'>" + rental.customerName + "</a>";
+                            }
+                        },
+                        {
+                            data: "rentals",
+                            render: function (data, type, rental) {
+                                return "<a href='/rentals/" + rental.customerId + "'>" + rental.customerName + "</a>";
+                            }
+                        }
+                    ]
+                });
+            });
+    </script>
+}*@
